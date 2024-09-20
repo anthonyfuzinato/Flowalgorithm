@@ -1,0 +1,25 @@
+Algoritmo Exercicio_4
+[Esse programa serve para mostrar os preços das peças de vestiario em cada país]
+
+ 
+
+
+Dados
+	[Dados de entrada]
+		Preco_roupa: real
+	[Dados de saida]
+		Preco_Londres,Preco_NY,Preco_RJ:real
+Inicio
+	[Imput]
+		Escreva ("Introduza o preço da peça de vestiario:")
+		Ler (Preco_roupa)
+	[Processamento]
+		Preco_londres <-- Preco_roupa * 0.87
+		Preco_NY <-- Preco_roupa * 1.06
+		Preco_RJ <-- Preco_roupa * 5.33 
+	[Output]
+	Escreval ("O preço da peça em Londres é de £", Preco_Londres)
+	Escreval ("O preço da peça em Nova Iorque é de $", Preco_NY)
+	Escreval ("O preço da peça no Rio de Janeiro é de R$", Preco_RJ)
+	Escreval ("O preco da peça em Lisboa é de €", Preco_roupa)
+Fim
