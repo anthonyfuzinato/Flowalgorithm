@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="esen2020"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-28 09:05:57 "/>
+        <attribute name="created" value="ZXNlbjIwMjA7U0QxMUMwNjsyMDIzLTA5LTI4OyIwODo0MTozOSAiOzIyNDc="/>
+        <attribute name="edited" value="ZXNlbjIwMjA7U0QxMUMwNjsyMDIzLTA5LTI4OyIwOTowNTo1NyAiOzE7MjM1Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <input variable="Raio"/>
+            <assign variable="Area" expression="Pi * Raio * Raio"/>
+            <assign variable="Perimetro" expression="2 * Pi * Raio * Raio"/>
+            <output expression="(Area + &quot; &quot; + Perimetro)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

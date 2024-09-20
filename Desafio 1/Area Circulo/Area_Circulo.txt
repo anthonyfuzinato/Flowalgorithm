@@ -1,0 +1,18 @@
+Algoritmo Calcular_Circunferencia
+
+[Com este algoritmo vamos aprender a calcular o circulo]
+
+Dados
+ [Dados de entrada]
+     Pi= 3,14159
+     Raio^2 = real
+ [Dados de saida]
+     Area, Perimetro= real
+INICIO
+ [input]
+   ler (Raio^2)
+   Area <-- Pi * Raio^2
+   Perimetro <-- 2 x Pi* Raio^2
+ [finalagoritmo]
+   escrever (Area,Perimetro)
+FIM
