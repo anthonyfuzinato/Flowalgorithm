@@ -1,0 +1,24 @@
+Algoritmo Exercicio 2
+[Serve para calcular o volume da piscina e o custo do seu enchimento]
+
+Dados		
+	[Dados de entrada]
+	Comprimento,largura,altura: inteiro
+	[Dados de saida]
+	Volume_piscina,custo, : real
+
+
+Inicio
+	[Imput]
+		Escreva ("Escreva o valor do Comprimento:")
+		ler(Comprimento)
+		Escreva ("Escreva o valor da largura")
+		Ler (largura)
+		Escreva("Escreva o valor da altura)
+		Ler(altura)
+	[Processamento]
+		Volume_piscina <-- Comprimento * largura * altura
+   		Volume_piscina <-- Volume_piscina * 1000
+		custo <-- Volume_piscina * 0.002
+	[Output]
+		Escreva ("O custo para encher a piscina é:", custo)
